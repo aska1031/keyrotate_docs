@@ -247,8 +247,8 @@ To add auxiliary links to your site (in the upper right on all pages), add it to
 ```yaml
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  # "Just the Docs on GitHub":
+  #   - "//github.com/just-the-docs/just-the-docs"
 ```
 
 ---
@@ -264,9 +264,9 @@ External links will appear in the navigation after the links to ordinary pages, 
 ```yaml
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
-    hide_icon: false # set to true to hide the external link icon - defaults to false
+  # - title: Just the Docs on GitHub
+  #   url: https://github.com/just-the-docs/just-the-docs
+  #   hide_icon: false # set to true to hide the external link icon - defaults to false
 ```
 
 The external links are decorated by an icon, which distinguishes them from internal links.
